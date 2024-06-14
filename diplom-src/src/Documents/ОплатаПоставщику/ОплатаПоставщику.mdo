@@ -28,7 +28,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОплатаПоставщику.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.ОплатаПоставщику.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ЗадолженностьПоставщикам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -159,7 +158,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="8ec82e00-99df-40f6-b187-91928043bd05">
+  <forms uuid="bf13ccfd-a176-4f00-8c6d-ef228816853e">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

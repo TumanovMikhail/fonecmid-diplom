@@ -175,6 +175,9 @@
     <mdObject>Catalog.КлючевыеОперации</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ДополнительныеСведения</mdObject>
   </content>
   <content>

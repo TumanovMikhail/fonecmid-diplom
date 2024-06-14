@@ -61,6 +61,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.ВКМ_ОбслуживаниеКлиента.Attribute.Клиент</field>
+    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -102,11 +106,13 @@
     <name>ВремяНачалаРабот</name>
     <synonym>
       <key>ru</key>
-      <value>Время начала работ (план)</value>
+      <value>Время начала работ</value>
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -118,11 +124,13 @@
     <name>ВремяОкончанияРабот</name>
     <synonym>
       <key>ru</key>
-      <value>Время окончания работ (план)</value>
+      <value>Время окончания работ</value>
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -138,9 +146,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>500</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -175,7 +181,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="3033bcb5-21cc-46c3-b4f6-ff11c3ddf54b">
+  <forms uuid="6187d49c-4c4e-4c30-9213-ed9c07ee3f0e">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

@@ -15,5 +15,6 @@
     <types>DocumentRef.ОплатаПоставщику</types>
     <types>DocumentRef.ОплатаОтПокупателя</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
   </type>
 </mdclass:DefinedType>
