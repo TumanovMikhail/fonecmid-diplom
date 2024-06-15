@@ -8,7 +8,7 @@
     <recordKeyType typeId="e6a98f47-f0b6-4213-aca4-f84bce275f73" valueTypeId="d9f257c6-3e8c-468f-b0e3-432776d3168e"/>
     <recordType typeId="a32363c4-dce6-4600-88f0-71aaef69e605" valueTypeId="96a5169e-4ee0-40ea-b70f-de3ea792ad04"/>
   </producedTypes>
-  <name>ВыполненныеКлиентуРаботы</name>
+  <name>ВКМ_ВыполненныеКлиентуРаботы</name>
   <synonym>
     <key>ru</key>
     <value>Выполненные клиенту работы</value>
