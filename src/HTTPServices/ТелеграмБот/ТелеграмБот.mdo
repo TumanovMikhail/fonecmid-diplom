@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27f99cce-362c-470f-960b-4e8988cd5957">
+  <name>ТелеграмБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм бот</value>
+  </synonym>
+  <rootURL>tbot</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="9a88577f-f7e0-4e8f-825f-f3d0258c38f4">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="067019e3-8868-4e2a-8510-8e8d411d6eab">
+      <name>URL</name>
+      <synonym>
+        <key>ru</key>
+        <value>URL</value>
+      </synonym>
+      <handler>PingURL</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
