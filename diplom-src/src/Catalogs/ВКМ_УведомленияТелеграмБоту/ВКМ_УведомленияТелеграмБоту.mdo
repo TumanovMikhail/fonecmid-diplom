@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dcc4f0f-0748-4c60-b396-3a1c1d050745">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="390c1f9d-59ad-45fd-b855-853fd883b40e">
   <producedTypes>
-    <objectType typeId="e4aa0170-d58d-46ad-903f-cf134099bca7" valueTypeId="4c2ca7ca-77b7-46ba-a1ef-5a108d8a7d6e"/>
-    <refType typeId="72f7f25e-2afd-406f-983c-64d6a4ba2a0e" valueTypeId="3440f43c-8069-4bcd-9744-17f13160a4a1"/>
-    <selectionType typeId="eea9044e-5e9f-40cf-bb9a-d575fd65efda" valueTypeId="f7a6a419-f68d-4d7a-b2dd-84e67c550b05"/>
-    <listType typeId="874df555-5535-416e-8162-ce6ca1839d33" valueTypeId="7b1faf1f-d2e8-43d4-8bbc-45ab9131196c"/>
-    <managerType typeId="47c0468d-b06d-4a09-a731-4b290f595368" valueTypeId="c3d07389-a3e3-47ec-8911-8c53d1dcd0e5"/>
+    <objectType typeId="f3c82be2-0d3e-41a1-b0a5-93c1d0b855c1" valueTypeId="dd3f9b88-7963-45fd-ae8f-c3046918e96c"/>
+    <refType typeId="6af0ece5-3879-4f82-933a-5329872968a8" valueTypeId="cac206c4-c0d3-4c82-ac15-429fd6c81d98"/>
+    <selectionType typeId="4aef1ec6-4eef-40cb-b564-06d4fca1adaf" valueTypeId="b15ae1f4-1b77-4c67-a4df-e5e3a41b3d10"/>
+    <listType typeId="68f7b9bf-1f39-4365-86c0-a4d0525afd00" valueTypeId="3f62b2dd-4eaa-4e2f-a4cc-f716c7ef9f55"/>
+    <managerType typeId="7677003c-9109-4ad6-8f37-c076cf51999d" valueTypeId="71b231bf-398f-466a-b553-ebd48e78fa63"/>
   </producedTypes>
-  <name>ВКМ_ФизическиеЛица</name>
+  <name>ВКМ_УведомленияТелеграмБоту</name>
   <synonym>
     <key>ru</key>
-    <value>Физические лица</value>
+    <value>Уведомления телеграм-боту</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -28,6 +26,7 @@
     <dataHistory>Use</dataHistory>
     <name>Predefined</name>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -35,13 +34,15 @@
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <fillValue xsi:type="core:BooleanValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -75,10 +76,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <synonym>
-      <key>ru</key>
-      <value>ФИО</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -96,15 +93,45 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление телеграм-боту</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уведомления телеграм-боту</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_УведомленияТелеграмБоту.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="67191436-2d7e-41f6-b51f-15eb780b42b1">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3f9a4406-c69c-46eb-9912-a0155bd956e8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

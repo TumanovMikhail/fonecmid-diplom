@@ -7,8 +7,12 @@
     </visibilityFragments>
   </subsystemsVisibility>
   <subsystemsOrder>
-    <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
     <subsystems>Subsystem.Деньги</subsystems>
+    <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+    <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
+    <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+    <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

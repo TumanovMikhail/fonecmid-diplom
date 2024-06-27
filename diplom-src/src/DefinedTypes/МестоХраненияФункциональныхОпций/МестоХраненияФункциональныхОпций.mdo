@@ -18,6 +18,7 @@
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеРеквизитыИСведения</types>
     <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
+    <types>ConstantValueManager.ВКМ_ОтправлятьСообщенияВТелеграмЧат</types>
     <types>ConstantValueManager.ИспользоватьГруппыПользователей</types>
   </type>
 </mdclass:DefinedType>

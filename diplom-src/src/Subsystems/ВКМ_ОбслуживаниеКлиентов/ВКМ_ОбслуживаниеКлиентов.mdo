@@ -11,5 +11,10 @@
     <picture>CommonPicture.ВКМ_ОбслуживаниеКлиентовКартинка</picture>
   </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
-  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>Constant.ВКМ_ТокенТелеграмБота</content>
+  <content>Constant.ВКМ_ИдентификаторТелеграмГруппы</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат</content>
+  <content>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм</content>
+  <content>f4094f12-ffb5-486d-8cd0-d337f26c4146</content>
 </mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b9b06c1-b82d-440a-a849-d7292047642b">
+  <name>ВКМ_ОтправлятьСообщенияВТелеграмЧат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправлять сообщения в телеграм чат</value>
+  </synonym>
+  <location>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

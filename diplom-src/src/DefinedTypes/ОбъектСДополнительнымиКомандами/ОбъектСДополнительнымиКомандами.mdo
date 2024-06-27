@@ -11,10 +11,10 @@
   <type>
     <types>DocumentRef.ЗаказПокупателя</types>
     <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
     <types>DocumentRef.ОплатаПоставщику</types>
     <types>DocumentRef.ОплатаОтПокупателя</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
-    <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
   </type>
 </mdclass:DefinedType>
