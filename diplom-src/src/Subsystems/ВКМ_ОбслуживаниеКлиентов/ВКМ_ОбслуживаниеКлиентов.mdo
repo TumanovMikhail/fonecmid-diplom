@@ -16,5 +16,6 @@
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат</content>
   <content>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм</content>
-  <content>f4094f12-ffb5-486d-8cd0-d337f26c4146</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
 </mdclass:Subsystem>

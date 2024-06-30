@@ -13,6 +13,7 @@
   <content>Constant.ВКМ_ТокенТелеграмБота</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат</content>
-  <content>1bfd0cfe-920b-4dc5-b51e-70872876af10</content>
   <content>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
 </mdclass:Subsystem>

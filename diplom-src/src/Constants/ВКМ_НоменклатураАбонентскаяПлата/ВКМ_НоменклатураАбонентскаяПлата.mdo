@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54c7a8aa-96bf-4d12-9e47-488c913cae7d">
+  <producedTypes>
+    <managerType typeId="77da1234-fed9-4c62-9cac-d4bfbedd3695" valueTypeId="4e5fb8a4-cfa3-4693-9d57-893c61d211d5"/>
+    <valueManagerType typeId="c7e62c96-c1fc-4d6f-8626-c78d670f5383" valueTypeId="42781fdd-c5e6-4f04-afc6-aaa9ce0bc68e"/>
+    <valueKeyType typeId="28bfcbfd-0f55-420f-9485-ab44a5a32855" valueTypeId="04ae5462-bcb8-464b-ac82-c72c0fb14024"/>
+  </producedTypes>
+  <name>ВКМ_НоменклатураАбонентскаяПлата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура абонентская плата</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

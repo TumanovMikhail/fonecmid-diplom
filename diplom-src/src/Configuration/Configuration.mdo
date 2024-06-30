@@ -1052,6 +1052,8 @@
   <constants>Constant.ВКМ_ТокенТелеграмБота</constants>
   <constants>Constant.ВКМ_ИдентификаторТелеграмГруппы</constants>
   <constants>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат</constants>
+  <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
