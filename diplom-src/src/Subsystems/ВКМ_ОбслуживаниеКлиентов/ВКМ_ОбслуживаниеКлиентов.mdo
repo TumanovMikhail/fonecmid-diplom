@@ -18,4 +18,5 @@
   <content>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
 </mdclass:Subsystem>

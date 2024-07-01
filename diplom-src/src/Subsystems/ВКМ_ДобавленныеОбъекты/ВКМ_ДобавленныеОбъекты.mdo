@@ -16,4 +16,10 @@
   <content>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>CommonModule.ВКМ_ТелеграмВызовСервера</content>
+  <content>CommonModule.ВКМ_ВспомогательныеФункцииКлиентСервер</content>
+  <content>Role.ВКМ_ИспользованиеБотов</content>
+  <content>HTTPService.TelegramBot</content>
 </mdclass:Subsystem>
