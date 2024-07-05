@@ -576,7 +576,9 @@
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументовВКМ_ОбслуживаниеКлиента</roles>
-  <roles>Role.ВКМ_ИспользованиеБотов</roles>
+  <roles>Role.ВКМ_ИспользованиеТелеграмБота</roles>
+  <roles>Role.ВКМ_МассовоеСозданиеАктов</roles>
+  <roles>Role.ВКМ_ЧтениеИзменениеДокументовВКМ_ОбслуживаниеКлиента</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>

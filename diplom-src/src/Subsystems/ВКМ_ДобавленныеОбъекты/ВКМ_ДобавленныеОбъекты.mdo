@@ -20,6 +20,12 @@
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>CommonModule.ВКМ_ТелеграмВызовСервера</content>
   <content>CommonModule.ВКМ_ВспомогательныеФункцииКлиентСервер</content>
-  <content>Role.ВКМ_ИспользованиеБотов</content>
+  <content>Role.ВКМ_ИспользованиеТелеграмБота</content>
   <content>HTTPService.TelegramBot</content>
+  <content>Role.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_ЧтениеИзменениеДокументовВКМ_ОбслуживаниеКлиента</content>
+  <content>CommonPicture.ВКМ_ОбслуживаниеКлиентовКартинка</content>
+  <content>FunctionalOption.ВКМ_ОтправлятьСообщенияВТелеграмЧат</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмЧат</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>
