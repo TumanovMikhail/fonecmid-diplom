@@ -19,4 +19,10 @@
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Constant.ВКМ_НДФЛ</content>
 </mdclass:Subsystem>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adf370f3-31be-4d2a-bd7e-4eb91310a87a">
+  <producedTypes>
+    <selectionType typeId="92918606-0167-4c5c-b0ac-4e45c53aff69" valueTypeId="757b76ea-e57b-42ae-b9e2-f5e7d12b77eb"/>
+    <listType typeId="eb8b6081-9cb5-4d94-a1a4-35f2fb630ff4" valueTypeId="2dba9bdc-e536-42a2-a201-4f2088ee2488"/>
+    <managerType typeId="e407da32-b478-4335-9933-f997df66a726" valueTypeId="51e94227-f5fa-4d4b-8aca-70695f1af993"/>
+    <recordSetType typeId="6612dd76-d6a2-4684-bdca-32721bbad8f3" valueTypeId="9facdea1-5b68-49d6-b610-078b7fc7b9b0"/>
+    <recordKeyType typeId="0019c7b3-7d52-442f-bc47-09faaa7090e2" valueTypeId="c189ab86-2250-46ea-8b7d-335e153798f9"/>
+    <recordType typeId="0831360e-f247-4c3b-8708-f60b8808b30f" valueTypeId="721d1419-db5f-41d8-933d-3301d0565cc3"/>
+    <recalcsType typeId="6256b5b6-5cb7-4f73-9184-e72f650c4e70" valueTypeId="1b6230a8-004b-48ce-b8ed-d84fb6da2c4f"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Регистр расчета &quot;Основные начисления&quot;</value>
+  </listPresentation>
+  <resources uuid="86b5aeb1-5888-487d-9d28-e595baa316a9">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="a38fa546-43ca-40c8-afdd-308d62a3e038">
+    <name>Дней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="b43f0299-22ff-44dd-a7c9-0535c2f12ee9">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.ГрафикРаботы</scheduleLink>
+  </attributes>
+  <attributes uuid="4f4a5f9d-d59f-4db4-8bf0-ecb46cd38298">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="a706c977-2397-4c1b-997b-0d490bb8fd93">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>
