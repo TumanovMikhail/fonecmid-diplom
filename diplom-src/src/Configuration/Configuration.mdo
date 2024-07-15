@@ -1166,6 +1166,7 @@
   <documents>Document.ВКМ_НачислениеЗаработнойПлаты</documents>
   <documents>Document.ВКМ_НачислениеФиксированнойПремии</documents>
   <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
+  <documents>Document.ВКМ_ГрафикОтпусков</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
