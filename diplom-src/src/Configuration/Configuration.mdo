@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО Нетология</vendor>
-  <version>1.0.0.1</version>
+  <version>1.0.0.2</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -575,10 +575,11 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
-  <roles>Role.ВКМ_ДобавлениеИзменениеДокументовВКМ_ОбслуживаниеКлиента</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументовПоОбслуживаниюКлиентов</roles>
   <roles>Role.ВКМ_ИспользованиеТелеграмБота</roles>
   <roles>Role.ВКМ_МассовоеСозданиеАктов</roles>
-  <roles>Role.ВКМ_ЧтениеИзменениеДокументовВКМ_ОбслуживаниеКлиента</roles>
+  <roles>Role.ВКМ_ЧтениеИзменениеДокументовПоОбслуживаниюКлиентов</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменение_ДокументовПоРасчетуЗарплаты</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>

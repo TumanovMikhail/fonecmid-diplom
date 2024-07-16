@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
-  <content>Role.ВКМ_ДобавлениеИзменениеДокументовВКМ_ОбслуживаниеКлиента</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовПоОбслуживаниюКлиентов</content>
   <content>Constant.ВКМ_ИдентификаторТелеграмГруппы</content>
   <content>Constant.ВКМ_ТокенТелеграмБота</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
@@ -23,7 +23,7 @@
   <content>Role.ВКМ_ИспользованиеТелеграмБота</content>
   <content>HTTPService.TelegramBot</content>
   <content>Role.ВКМ_МассовоеСозданиеАктов</content>
-  <content>Role.ВКМ_ЧтениеИзменениеДокументовВКМ_ОбслуживаниеКлиента</content>
+  <content>Role.ВКМ_ЧтениеИзменениеДокументовПоОбслуживаниюКлиентов</content>
   <content>CommonPicture.ВКМ_ОбслуживаниеКлиентовКартинка</content>
   <content>FunctionalOption.ВКМ_ОтправлятьСообщенияВТелеграмЧат</content>
   <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмЧат</content>
@@ -44,4 +44,5 @@
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_ДобавлениеИзменение_ДокументовПоРасчетуЗарплаты</content>
 </mdclass:Subsystem>
