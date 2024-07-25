@@ -580,6 +580,9 @@
   <roles>Role.ВКМ_МассовоеСозданиеАктов</roles>
   <roles>Role.ВКМ_ЧтениеИзменениеДокументовПоОбслуживаниюКлиентов</roles>
   <roles>Role.ВКМ_ДобавлениеИзменение_ДокументовПоРасчетуЗарплаты</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетаВыработкаСпециалистов</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетовИТБухгалтера</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетовСпециалистаПоКадрам</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -1222,6 +1225,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_РасчётыССотрудниками</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>

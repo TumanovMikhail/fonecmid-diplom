@@ -45,4 +45,11 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Role.ВКМ_ДобавлениеИзменение_ДокументовПоРасчетуЗарплаты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчётыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Role.ВКМ_ЧтениеОтчетаВыработкаСпециалистов</content>
+  <content>Role.ВКМ_ЧтениеОтчетовИТБухгалтера</content>
+  <content>Role.ВКМ_ЧтениеОтчетовСпециалистаПоКадрам</content>
 </mdclass:Subsystem>

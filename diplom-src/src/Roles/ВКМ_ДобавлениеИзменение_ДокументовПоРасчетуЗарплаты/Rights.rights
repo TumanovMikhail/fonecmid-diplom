@@ -65,6 +65,10 @@
 			<name>InteractiveChangeOfPosted</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ВКМ_ГрафикОтпусков</name>
@@ -126,6 +130,10 @@
 		</right>
 		<right>
 			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -191,6 +199,10 @@
 			<name>InteractiveChangeOfPosted</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ВКМ_НачислениеФиксированнойПремии</name>
@@ -252,6 +264,10 @@
 		</right>
 		<right>
 			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -323,6 +339,10 @@
 			<name>InteractiveClearDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</name>
@@ -362,6 +382,10 @@
 			<name>InteractiveClearDeletionMark</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>ChartOfCalculationTypes.ВКМ_Удержания</name>
@@ -399,6 +423,10 @@
 		</right>
 		<right>
 			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -587,6 +615,10 @@
 		</right>
 		<right>
 			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
