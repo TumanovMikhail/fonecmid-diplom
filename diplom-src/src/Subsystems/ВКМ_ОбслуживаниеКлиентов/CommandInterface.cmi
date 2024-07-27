@@ -13,6 +13,42 @@
       <command>Constant.ВКМ_ТокенТелеграмБота.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_ГрафикОтпусков.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -30,23 +66,42 @@
     <orderFragments>
       <group>ActionsPanelTools</group>
       <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВКМ_ЗаполнениеГрафика.StandardCommand.Open</commands>
+      <commands>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_НоменклатураАбонентскаяПлата.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_НоменклатураРаботыСпециалиста.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_НДФЛ.StandardCommand.Open</commands>
-      <commands>DataProcessor.ВКМ_ЗаполнениеГрафика.StandardCommand.Open</commands>
-      <commands>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_ИдентификаторТелеграмГруппы.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_ТокенТелеграмБота.StandardCommand.Open</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
+      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
-      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.Create</commands>
+      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.Create</commands>
+      <commands>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.Create</commands>
+      <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.Create</commands>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.Create</commands>
+      <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.Create</commands>
+      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.Create</commands>
+      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.Create</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.ВКМ_ВыработкаСпециалистов.StandardCommand.Open</commands>
+      <commands>Report.ВКМ_АнализВыставленныхАктов.StandardCommand.Open</commands>
+      <commands>Report.ВКМ_РасчётыССотрудниками.StandardCommand.Open</commands>
+      <commands>Report.ВКМ_РасходЗапланированныхОтпусков.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -21,7 +21,6 @@
   <content>CommonModule.ВКМ_ТелеграмВызовСервера</content>
   <content>CommonModule.ВКМ_ВспомогательныеФункцииКлиентСервер</content>
   <content>Role.ВКМ_ИспользованиеТелеграмБота</content>
-  <content>HTTPService.TelegramBot</content>
   <content>Role.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_ЧтениеИзменениеДокументовПоОбслуживаниюКлиентов</content>
   <content>CommonPicture.ВКМ_ОбслуживаниеКлиентовКартинка</content>
@@ -52,4 +51,5 @@
   <content>Role.ВКМ_ЧтениеОтчетаВыработкаСпециалистов</content>
   <content>Role.ВКМ_ЧтениеОтчетовИТБухгалтера</content>
   <content>Role.ВКМ_ЧтениеОтчетовСпециалистаПоКадрам</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
 </mdclass:Subsystem>

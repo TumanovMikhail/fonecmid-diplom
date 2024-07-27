@@ -24,7 +24,7 @@
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Обслуживания клиентов (список)</value>
+    <value>Обслуживания клиентов</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

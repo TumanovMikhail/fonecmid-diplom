@@ -7692,13 +7692,6 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.TelegramBot.URLTemplate.Ping.Method.URL</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетов.Attribute.ОписаниеЯзык1</name>
 		<right>
 			<name>View</name>
