@@ -29,6 +29,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ВКМ_ГрафикиОтпусков</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="97ae9dd4-5dae-4604-91c9-59a6e022e796">
