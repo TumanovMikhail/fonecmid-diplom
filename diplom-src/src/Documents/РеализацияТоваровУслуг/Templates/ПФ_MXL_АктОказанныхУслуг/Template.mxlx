@@ -6738,6 +6738,10 @@
 		<containsValue>true</containsValue>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
 		</valueType>
 		<format>
 			<v8:item>

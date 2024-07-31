@@ -6,22 +6,22 @@
 	<object>
 		<name>Report.ВКМ_РасчётыССотрудниками</name>
 		<right>
-			<name>View</name>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Use</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Report.ВКМ_РасходЗапланированныхОтпусков</name>
 		<right>
-			<name>View</name>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Use</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

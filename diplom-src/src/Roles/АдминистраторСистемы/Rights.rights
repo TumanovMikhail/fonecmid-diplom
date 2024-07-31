@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>CommonForm.ВКМ_НастройкиРасчетаЗарплаты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ПараметрыАдминистрированияИБ</name>
 		<right>
 			<name>Read</name>

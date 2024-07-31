@@ -18,6 +18,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Posting</name>
 			<value>true</value>
 		</right>
@@ -58,15 +62,11 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -82,6 +82,10 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -108,10 +112,6 @@
 			<name>InputByString</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
@@ -121,7 +121,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</name>
+		<name>InformationRegister.ВКМ_УсловияОплатыСотрудников</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -144,13 +144,9 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ВКМ_УсловияОплатыСотрудников</name>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -159,6 +155,10 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>

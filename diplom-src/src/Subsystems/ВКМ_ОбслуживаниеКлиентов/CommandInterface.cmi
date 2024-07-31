@@ -2,16 +2,16 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Constant.ВКМ_ИдентификаторТелеграмГруппы.StandardCommand.Open</command>
-      <visible/>
+      <command>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Constant.ВКМ_ТокенТелеграмБота.StandardCommand.Open</command>
-      <visible/>
+      <command>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.Create</command>
@@ -21,12 +21,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
@@ -44,37 +38,50 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.ВКМ_ГрафикОтпусков.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_НоменклатураАбонентскаяПлата.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_НоменклатураРаботыСпециалиста.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_НДФЛ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_ИдентификаторТелеграмГруппы.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_ТокенТелеграмБота.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
-    <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>ActionsPanelTools</group>
-      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
-      <commands>DataProcessor.ВКМ_ЗаполнениеГрафика.StandardCommand.Open</commands>
-      <commands>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_НоменклатураАбонентскаяПлата.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_НоменклатураРаботыСпециалиста.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_НДФЛ.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_ИдентификаторТелеграмГруппы.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_ТокенТелеграмБота.StandardCommand.Open</commands>
-    </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
@@ -84,6 +91,11 @@
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelCreate</group>
@@ -102,6 +114,19 @@
       <commands>Report.ВКМ_АнализВыставленныхАктов.StandardCommand.Open</commands>
       <commands>Report.ВКМ_РасчётыССотрудниками.StandardCommand.Open</commands>
       <commands>Report.ВКМ_РасходЗапланированныхОтпусков.StandardCommand.Open</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВКМ_ЗаполнениеГрафика.StandardCommand.Open</commands>
+      <commands>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм.StandardCommand.Open</commands>
+      <commands>CommonForm.ВКМ_НастройкиРасчетаЗарплаты.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_НоменклатураАбонентскаяПлата.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_НоменклатураРаботыСпециалиста.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_НДФЛ.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ИдентификаторТелеграмГруппы.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ОтправлятьСообщенияВТелеграмЧат.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ТокенТелеграмБота.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

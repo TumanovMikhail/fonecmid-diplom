@@ -37,18 +37,18 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <predefined>
-    <items id="6d45f897-447e-4644-8ae6-d73d8d21db83">
-      <name>ФиксированнаяПремия</name>
-      <description>Фиксированная премия</description>
-      <code xsi:type="core:StringValue">
-        <value>2</value>
-      </code>
-    </items>
     <items id="8c6e2fe9-dc02-44b2-a3c9-04bc4ac01a4c">
       <name>Процент</name>
       <description>Процент</description>
       <code xsi:type="core:StringValue">
         <value>1</value>
+      </code>
+    </items>
+    <items id="6d45f897-447e-4644-8ae6-d73d8d21db83">
+      <name>ФиксированнаяПремия</name>
+      <description>Фиксированная премия</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
       </code>
     </items>
   </predefined>

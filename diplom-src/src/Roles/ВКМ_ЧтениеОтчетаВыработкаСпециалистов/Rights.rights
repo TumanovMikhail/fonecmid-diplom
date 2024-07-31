@@ -6,26 +6,26 @@
 	<object>
 		<name>Report.ВКМ_ВыработкаСпециалистов</name>
 		<right>
-			<name>View</name>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Use</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</name>
 		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 	</object>

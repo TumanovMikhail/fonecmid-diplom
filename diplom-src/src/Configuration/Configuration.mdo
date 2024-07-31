@@ -1114,6 +1114,7 @@
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ВКМ_НастройкаИнтеграцииСТелеграм</commonForms>
+  <commonForms>CommonForm.ВКМ_НастройкиРасчетаЗарплаты</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>

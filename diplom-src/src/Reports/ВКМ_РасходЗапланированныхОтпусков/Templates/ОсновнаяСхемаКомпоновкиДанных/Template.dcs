@@ -94,6 +94,7 @@
 				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 		<expression>НачалоПериода(&amp;ТекущийГод, "Год")</expression>
 		<denyIncompleteValues>true</denyIncompleteValues>

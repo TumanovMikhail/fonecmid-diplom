@@ -4,32 +4,17 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>CommonForm.ВКМ_НастройкиРасчетаЗарплаты</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Configuration.УправлениеITФирмой</name>
 		<right>
-			<name>Administration</name>
+			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>DataAdministration</name>
+			<name>ThinClient</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ActiveUsers</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
+			<name>WebClient</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -37,19 +22,23 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>MainWindowModeKiosk</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>AnalyticsSystemClient</name>
+			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ConfigurationExtensionsAdministration</name>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>

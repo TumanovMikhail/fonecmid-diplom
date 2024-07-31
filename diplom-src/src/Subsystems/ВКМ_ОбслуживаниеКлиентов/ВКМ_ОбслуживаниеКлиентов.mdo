@@ -36,4 +36,5 @@
   <content>Role.ВКМ_ЧтениеОтчетаВыработкаСпециалистов</content>
   <content>Role.ВКМ_ЧтениеОтчетовИТБухгалтера</content>
   <content>Role.ВКМ_ЧтениеОтчетовСпециалистаПоКадрам</content>
+  <content>CommonForm.ВКМ_НастройкиРасчетаЗарплаты</content>
 </mdclass:Subsystem>

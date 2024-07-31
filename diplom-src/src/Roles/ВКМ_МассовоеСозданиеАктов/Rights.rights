@@ -35,6 +35,48 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Posted</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ОписаниеРабот</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ВКМ_НоменклатураРаботыСпециалиста</name>
 		<right>
 			<name>Read</name>
@@ -51,6 +93,20 @@
 		<right>
 			<name>Edit</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяОкончанияРабот</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ДатаПроведенияРабот</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -210,7 +266,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.Специалист</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяНачалаРабот</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -237,6 +307,13 @@
 		<right>
 			<name>TotalsControl</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ЧасыКОплатеКлиенту</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -277,84 +354,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ДатаПроведенияРабот</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяНачалаРабот</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяОкончанияРабот</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ОписаниеРабот</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ФактическиПотраченоЧасов</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ЧасыКОплатеКлиенту</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Date</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Posted</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Number</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
